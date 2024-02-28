@@ -1,0 +1,19 @@
+import flet as ft
+
+def text_container(page: ft.Page):
+   page.padding = 0
+
+   page.add(
+    ft.Container(
+        content = ft.Text("Sose bízd emberre egy komputer munkáját."),
+        height = 100,
+        bgcolor = ft.colors.AMBER,
+        alignment = ft.alignment.center,
+    )
+   )
+    
+
+
+
+
+ft.app(target=text_container)
